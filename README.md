@@ -1,31 +1,15 @@
-# AR Indoor Navigation
+# AR Based Indoor Navigation System Using Unity Nav Mesh
 
-This is the corresponding github repository for the short tutorial series about "How to create an indoor navigation app with ARFoundation WITHOUT the usage of Cloud Anchors or using ARPointCloud Data.". Using additional functionality with Unitys NavMesh + multiple navigation targets and world recentering with ZXing QRCode reading. :)
+In this project the main software that we have used is UNITY 3D. Google ARcore is used to integrate virtual content with real world. It has been used to understand the motion of the phone and track its position. Mapbox has also been used to track geolocation, that is to track the live location data. This app allows the user to navigate from one place to another using arrows and signs that direct the user to his destination. Upon opening the app the user enters his initial and final destination. The app tracks the position of initial and final destination and then looks for the shortest path for the same. The user reaches to its final destination via following the arrows that have been overlayed along the lattitude of the shortest path. :)
 
-Tutorial Videos:
-- Part 1 - https://www.youtube.com/watch?v=fuHFrMZ4q_s
-- Part 2 - https://www.youtube.com/watch?v=C7TNBybSOq0
-- Part 3 - https://www.youtube.com/watch?v=w_9LG_D9c0Q
-- Part 4 - https://www.youtube.com/watch?v=uAzPdt7ZZN4
-- Part 5 - https://www.youtube.com/watch?v=3rPycpxrw-8
+Synopsis of project:
 
-Indoor Navigation Showcase:
-- https://www.youtube.com/watch?v=IuNs0AeATg0
+- https://drive.google.com/file/d/1wcbsVKCQR01YUk9z0EZv5ABqBukYb4_T/view?usp=sharing
 
-Unity AR Foundation:
-- https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/index.html
+Project Report:
 
-Unity ARFoundation, get CPU camera image:
-- https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/cpu-camera-image.html#synchronously-convert-to-grayscale-and-color
+- https://drive.google.com/file/d/1wcbsVKCQR01YUk9z0EZv5ABqBukYb4_T/view?usp=sharing
 
-Unity ARFoundation Scripting API for ARSession:
-- https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/api/UnityEngine.XR.ARFoundation.ARSession.html
+Research Paper:
 
-Unity documentation to Graphics.Blit()
-- https://docs.unity3d.com/ScriptReference/Graphics.Blit.html
-
-ZXing .NET Github repo:
-- https://github.com/micjahn/ZXing.Net
-
-Online free QRCode generator:
-- https://www.qr-code-generator.com/
+- https://drive.google.com/file/d/1jXtwy0ofkJagOYnF5Is1TH7AqFTAklq-/view?usp=sharing
